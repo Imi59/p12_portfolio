@@ -17,3 +17,7 @@ npm create vite@latest
 # installation du Rooter
 
 npm install react-router-dom
+
+# installation des dépendances de SASS
+
+npm install -D sass
