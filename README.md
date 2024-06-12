@@ -13,3 +13,7 @@ npm create vite@latest
 # Local:
 
     http://localhost:5174/
+
+# installation du Rooter
+
+npm install react-router-dom
