@@ -1,8 +1,9 @@
+import Header from "../../components/Header/Header";
+
 const Home = () => {
   return (
-    <div id="home">
+    <div id="home" >
       <Header />
-      <Footer />
     </div>
   );
 };

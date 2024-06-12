@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./style.scss";
-
 const Header = () => {
   return (
     <header className="header">
-      <div className="brand">Winandy Christopher</div>
+      <div className="brand"> Baqua Imane </div>
       <nav className="nav">
         <ul>
           <li>
