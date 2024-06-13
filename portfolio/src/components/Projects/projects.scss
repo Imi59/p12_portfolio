@@ -1,0 +1,78 @@
+@import '../../sass/utilities/variables.scss';
+@import '../../sass/utilities/mixins.scss';
+
+
+.projects {
+    height: 2000px;
+    @include animation;
+
+    & h2 {
+        color: $white;
+        font-size: 30px;
+        text-shadow: $tertiary-color 1px 0 10px;
+        @include centerColumn;
+        margin-top: 2rem;
+    }
+
+    &__container {
+        @include centerColumn;
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__left-section {
+        @include card;
+        margin-top: 4rem
+    }
+
+    &__center-section {
+        @include card;
+        margin-top: 10rem
+    }
+
+    &__right-section {
+        @include card;
+        margin-top: 10rem
+    }
+}
+
+@include forTablet {
+    .projects {
+        & h2 {
+            font-size: 40px;
+        }
+
+        &__container__left-section {
+            margin-top: 1rem;
+        }
+    }
+}
+
+@include forDesktop {
+    .projects {
+        height: 700px;
+
+        & h2 {
+            font-size: 40px
+        }
+
+        &__container {
+            @include centerRow;
+            gap: 5rem;
+        }
+
+        &__left-section {
+            margin-top: 3rem;
+        }
+
+        &__center-section {
+            margin-top: 3rem;
+        }
+
+        &__right-section {
+            margin-top: 3rem;
+        }
+    }
+}
