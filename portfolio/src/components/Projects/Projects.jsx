@@ -9,19 +9,22 @@ import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.png";
 import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.png";
 
 function Projects() {
-
   return (
-    <div
-      id="projects"
-    >
-      <h2 id="projects__title"> Projects</h2>
+    <div id="projects" className="projects">
+      <h1> Mes projets</h1>
       <div className="projects__container">
         <Card
           appLink="https://p8-kasa-ogws.vercel.app/Home"
           githubLink="https://github.com/dev-armand/P8-Kasa"
           image={Kasa}
           title="Kasa"
-          text="Kasa is rental property app that I created with React and React Router. Thie project contains a carousel and collapse bar component."
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
           icon1={PhotoCSS}
           icon2={PhotoHTML}
           icon3={PhotoReact}
@@ -29,11 +32,17 @@ function Projects() {
           icon5={PhotoSASS}
         />
         <Card
-          appLink="https://p6-sophie-bluel.vercel.app/"
-          githubLink="https://github.com/dev-armand/P6-Sophie-Bluel"
+          appLink="https://imi59.github.io/P10_Debuggez_le_site_d_une_agence_d_evenementiel/"
+          githubLink="https://github.com/Imi59/P10_Debuggez_le_site_d_une_agence_d_evenementiel.git"
           image={Sophie}
           title="Sophie Bluel"
-          text="For her Portfolio I had to create a Login function that handles user input (email and password), sends it to a server-side API for authentication. Once connected she can add or delete a project."
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
           icon1={PhotoCSS}
           icon2={PhotoHTML}
           icon4={PhotoJavascript}
@@ -43,7 +52,58 @@ function Projects() {
           githubLink="https://github.com/dev-armand/P4-ohmyfood"
           image={Ohmyfood}
           title="Ohmyfood"
-          text="I had to create a food menu completely responsive for all devices and I started with mobile first. I made a loader and some CSS animations for choosing a menu and the like button."
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
+          icon1={PhotoCSS}
+          icon2={PhotoHTML}
+        />
+        <Card
+          appLink="https://dev-armand.github.io/P4-ohmyfood/"
+          githubLink="https://github.com/dev-armand/P4-ohmyfood"
+          image={Ohmyfood}
+          title="Ohmyfood"
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
+          icon1={PhotoCSS}
+          icon2={PhotoHTML}
+        />
+        <Card
+          appLink="https://dev-armand.github.io/P4-ohmyfood/"
+          githubLink="https://github.com/dev-armand/P4-ohmyfood"
+          image={Ohmyfood}
+          title="Ohmyfood"
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
+          icon1={PhotoCSS}
+          icon2={PhotoHTML}
+        />
+        <Card
+          appLink="https://dev-armand.github.io/P4-ohmyfood/"
+          githubLink="https://github.com/dev-armand/P4-ohmyfood"
+          image={Ohmyfood}
+          title="Ohmyfood"
+          texts={[
+            " Intégration des maquettes fournies",
+            "Dévellopement de la fonctionnalité de recherche d'appartements",
+            "Organisation du style de manière efficace",
+            "Dévellopement interactif et optimal",
+            "Mise en place et gestion du Back-end via API pour utiliser les données de l'application",
+          ]}
           icon1={PhotoCSS}
           icon2={PhotoHTML}
         />

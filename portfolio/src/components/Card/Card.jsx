@@ -5,7 +5,7 @@ function Card({
   githubLink,
   image,
   title,
-  text,
+  texts = [], // Provide a default empty array
   icon1,
   icon2,
   icon3,
@@ -19,7 +19,11 @@ function Card({
           <img src={image} alt="img" className="projects__left-section__img" />
         </a>
         <h3>{title}</h3>
-        <p>{text}</p>
+        <ul>
+          {texts.map((text, index) => (
+            <li key={index}>{text}</li>
+          ))}
+        </ul>
         <div className="stack-section__container">
           {icon1 && (
             <img

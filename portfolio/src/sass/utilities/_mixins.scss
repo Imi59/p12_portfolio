@@ -1,120 +1,31 @@
-@mixin centerRow{
+@mixin centerRow {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-@mixin centerColumn{
+@mixin centerColumn {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-@mixin spaceBetween{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-}
-
-@mixin forMobile {
-  @media (min-width:376px){
-    @content;
-  }
-}
-
-@mixin forLargeMobile {
-  @media (min-width:480px){
-    @content;
-  }
-}
-
-@mixin forTablet {
-  @media (min-width:768px){
-    @content;
-  }
-}
-
-@mixin forDesktop {
-  @media (min-width:1024px){
-    @content;
-  }
-}
-
-@mixin forLargeDesktop {
-  @media (min-width:1515px){
-    @content;
-  }
-}
-
-@mixin button {
-    @include centerRow;
-    height: 3rem;
-    border-radius: 30px;
-    background-color: $secondary-color;
-    border: solid;
-    border-width: 3px;
-    border-color: $white;
-    text-shadow: $tertiary-color 1px 0 10px;
-    box-shadow: 1px 1px 10px 10px $main-color;
-      padding: 1rem;
-      margin: 0.75rem;
-      font-family: $main-font;
-      font-size: 20px;
-      color: $white;
-      &:hover {
-        background: linear-gradient($main-color, $white);
-        cursor: pointer;
-      }
-}
-
-@mixin Bigbutton {
-  @include centerRow;
-  height: 3rem;
-  border-radius: 30px;
-  background-color: $secondary-color;
-  border: solid;
-  border-width: 3px;
-  border-color: $white;
-  text-shadow: $tertiary-color 1px 0 10px;
-  box-shadow: 1px 1px 10px 10px $main-color;
-    padding: 1rem;
-    margin: 2rem;
-    font-family: $main-font;
-    font-size: 30px;
-    color: $white;
-    &:hover {
-      color: $tertiary-color;
-      cursor: pointer;
-      background: linear-gradient($main-color 10%, $light-purple);
-      text-shadow: 1px 0 20px $secondary-color;
-    }
-}
 
 @mixin glow-effect-hover {
   &:hover {
-    background-color: $secondary-color;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     border: solid;
     border-width: 3px;
-    border-color: $white;
-    text-shadow: $tertiary-color 1px 0 10px;
-    box-shadow: 1px 1px 10px 10px $main-color;
-    color: $tertiary-color;
+    border-color: white;
+    text-shadow: rgb(240, 240, 240) 1px 0 10px;
+    box-shadow: 1px 1px 10px 10px #0be4aa;
+    color: rgb(240, 240, 240);
     cursor: pointer;
   }
-}
-
-@mixin glow-effect {
-    background-color: $secondary-color;
-    border: solid;
-    border-width: 3px;
-    border-color: $white;
-    text-shadow: $tertiary-color 1px 0 10px;
-    box-shadow: 1px 1px 10px 10px $main-color;
-    color: $tertiary-color;
-    cursor: pointer;
 }
 
 @mixin card {
@@ -123,30 +34,32 @@
   justify-content: flex-start;
   border-radius: 5px;
   height: 580px;
-  width: 300px;
+  width: 350px;
   border: solid;
-  border-width: 3px;
-  border-color: $light-purple;
-  background-color: $dark-purple-color;
+  border-width: 2px;
+  border-color: #0be4aa;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
   position: relative;
-  
+
 
   &__img {
-    height: 270px;
-    width: 300px;
+    width: 100%;
     object-fit: cover;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
 
   & h3 {
-    color: $white;
-    font-size: 22px;
+    color: white;
+    font-size: 25px;
     margin-bottom: 0;
+    text-align: center;
   }
 
   & p {
-    color: $white;
+    color: white;
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 18px;
@@ -162,45 +75,5 @@
     position: absolute;
     bottom: -10px;
     left: 120px;
-  }
-
-  &:hover {
-    background-color: $dark-purple-color;
-  }
-}
-
-@mixin border {
-  border: solid;
-  border-width: 3px;
-  border-color: $light-purple;
-  border-radius: 5px;
-}
-
-@mixin icon {
-  @include centerRow;
-    border-radius: 30px;
-    background-color: $secondary-color;
-    border: solid;
-    border-width: 3px;
-    border-color: $white;
-    box-shadow: 1px 1px 10px 10px $main-color;
-    padding: 8px;
-    margin: 2rem;
-    color: $white;
-    &:hover {
-      color: $tertiary-color;
-      cursor: pointer;
-      background: linear-gradient($main-color 10%, $light-purple);
-    }
-}
-
-@mixin animation {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 1s ease, transform 1s ease;
-
-  &.visible {
-    opacity: 1;
-    transform: translateX(0);
   }
 }
