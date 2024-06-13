@@ -1,0 +1,17 @@
+button {
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    transition: font-size 0.3s ease; // Ajoutez cette ligne pour la transition
+
+    &:hover {
+        font-size: 25px; // Augmentez la taille de la police au survol
+    }
+}

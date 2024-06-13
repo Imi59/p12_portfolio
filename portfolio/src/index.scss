@@ -1,6 +1,13 @@
 @use "./components/Header/header.scss";
 @use "./pages/Home/home.scss";
+@use "./components/Presentation/presentation.scss";
+@use "./components/Button/button.scss";
+@use "./components/Contact/contact.scss";
 
 body {
-    background-color: black;
+    margin: 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
 }

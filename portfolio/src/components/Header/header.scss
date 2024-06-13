@@ -1,31 +1,27 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    background-color: rgba(158, 158, 158, 0.2);
-    color: white;
+    padding: 15px;
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    background: linear-gradient(to right, #38ef7d, #11998e);
 
-    .brand {
-        font-size: 2vw;
-        font-weight: bold;
-    }
 
     .nav {
         ul {
             list-style-type: none;
-            padding: 0;
             gap: 20px;
-            margin: 0;
             display: flex;
+
         }
 
         .nav-link {
             text-decoration: none;
-            color: #d6d6d6;
             margin-right: 30px;
-            font-weight: bold;
-            font-size: 1.5vw;
+            color: black;
+            font-weight: bolder;
+            font-size: 25px;
             transition: all 0.3s ease;
 
             &:hover {
