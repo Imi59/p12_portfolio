@@ -1,6 +1,9 @@
 .contact {
     display: grid;
     justify-content: center;
+    background: #44A08D;
+    background: -webkit-linear-gradient(to right, #093637, #44A08D);
+    background: linear-gradient(to right, #093637, #44A08D);
 
     h1 {
         color: white;

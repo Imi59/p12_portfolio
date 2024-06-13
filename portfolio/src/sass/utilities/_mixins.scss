@@ -33,11 +33,9 @@
   @include glow-effect-hover;
   justify-content: flex-start;
   border-radius: 5px;
-  height: 580px;
+  height: 400px;
   width: 350px;
   border: solid;
-  border-width: 2px;
-  border-color: #0be4aa;
   background: #000000;
   background: -webkit-linear-gradient(to right, #434343, #000000);
   background: linear-gradient(to right, #434343, #000000);
@@ -49,21 +47,18 @@
     object-fit: cover;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+
+
   }
 
   & h3 {
     color: white;
-    font-size: 25px;
-    margin-bottom: 0;
+    font-size: 20px;
+    margin: 0;
+
     text-align: center;
   }
 
-  & p {
-    color: white;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 18px;
-  }
 
   & .gitHub {
     height: 30px;
@@ -73,7 +68,7 @@
     padding: 3px;
     @include glow-effect-hover;
     position: absolute;
-    bottom: -10px;
+    bottom: -15px;
     left: 120px;
   }
 }

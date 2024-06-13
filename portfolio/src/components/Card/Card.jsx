@@ -1,29 +1,22 @@
+import React from "react";
 import GitHub from "../../assets/github-mark-white.png";
 
 function Card({
-  appLink,
   githubLink,
   image,
   title,
-  texts = [], // Provide a default empty array
   icon1,
   icon2,
   icon3,
   icon4,
   icon5,
+  onClick,
 }) {
   return (
-    <div className="projects__link">
+    <div className="projects__link" onClick={onClick}>
       <div className="projects__left-section">
-        <a href={appLink} target="_blank" rel="noopener noreferrer">
-          <img src={image} alt="img" className="projects__left-section__img" />
-        </a>
+        <img src={image} alt="img" className="projects__left-section__img" />
         <h3>{title}</h3>
-        <ul>
-          {texts.map((text, index) => (
-            <li key={index}>{text}</li>
-          ))}
-        </ul>
         <div className="stack-section__container">
           {icon1 && (
             <img
