@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "../Button/Button";
 
 const Contact = () => {
   const [showModal, setShowModal] = useState(false);
@@ -58,9 +59,7 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="contact__button">
-          Envoyer
-        </button>
+        <Button type="submit">Envoyer</Button>
       </form>
       {showModal && (
         <div className="modal">

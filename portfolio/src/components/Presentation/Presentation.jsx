@@ -2,22 +2,31 @@ import React from "react";
 import Button from "../Button/Button";
 
 const Presentation = () => {
+  const handleButtonClick = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="presentation">
       <div className="presentation__text">
         <h1>Bienvenue sur mon portfolio !</h1>
         <p>
-          Je suis Baqua Imane, développeur web FrontEnd passionné par la
-          création d'expériences utilisateur exceptionnelles.
+          <strong>Développeur web FrontEnd </strong>
+          <br />
+          Passionnée par la création d'expériences utilisateur exceptionnelles !
           <br />
           <strong>Mon objectif ?</strong>
           <br />
           Allier ma créativité et mes compétences techniques pour développer des
-          applications web innovantes et des sites web Uniques
+          applications web innovantes et des sites web uniques.
         </p>
       </div>
 
-      <Button />
+      {/* Utilisation du bouton avec gestionnaire de clic personnalisé */}
+      <Button onClick={handleButtonClick}>Contactez-nous !</Button>
     </div>
   );
 };
