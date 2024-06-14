@@ -1,21 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__content">
-        {/* Image */}
-        <div className="footer__image">
-          <img
-            src={import.meta.env.VITE_PREFIX + "images/footer/footer.img.jpg"}
-            alt=""
-          />
-        </div>
         {/* Logos LinkedIn et Github */}
         <div className="footer__social">
-          <h4>Retrouvez moi ici !</h4>
           <div className="footer__social-icons">
             <a href="#" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
@@ -30,7 +22,7 @@ const Footer = () => {
         </div>
         {/* Navigation */}
         <div className="footer__explore">
-          <h4>Navigation</h4>
+          <h1>Navigation</h1>
           <ul>
             <li>
               <a href="#home">Accueil</a>

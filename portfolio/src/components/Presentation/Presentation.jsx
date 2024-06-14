@@ -26,7 +26,7 @@ const Presentation = () => {
       </div>
 
       {/* Utilisation du bouton avec gestionnaire de clic personnalisé */}
-      <Button onClick={handleButtonClick}>Contactez-nous !</Button>
+      <Button onClick={handleButtonClick}>Donnez vie à votre projet !</Button>
     </div>
   );
 };
