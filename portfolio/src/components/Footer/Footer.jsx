@@ -28,6 +28,11 @@ const Footer = () => {
               <a href="#home">Accueil</a>
             </li>
             <li>
+              <Link to="/about" className="nav-link">
+                A propos
+              </Link>
+            </li>
+            <li>
               <a href="#skills">Mes compétences</a>
             </li>
             <li>

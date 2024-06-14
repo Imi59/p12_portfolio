@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-
 
 const About = () => {
   const handleGoBack = () => {
@@ -13,7 +10,7 @@ const About = () => {
   return (
     <div id="about" className="about">
       <Link to="/" className="go-back" onClick={handleGoBack}>
-        <FontAwesomeIcon icon={faHome} />
+        <i className="fa fa-home"></i>
       </Link>
 
       <h1>À propos de moi</h1>

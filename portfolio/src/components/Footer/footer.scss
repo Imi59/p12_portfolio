@@ -66,6 +66,10 @@
             flex-wrap: wrap;
             padding-left: 0;
 
+            & :hover {
+                @include glow-effect-hover;
+            }
+
 
             li {
 
@@ -73,8 +77,8 @@
                 a {
                     text-decoration: none;
                     color: white;
-                    font-weight: bolder;
                     font-size: 15px;
+
 
                 }
             }
