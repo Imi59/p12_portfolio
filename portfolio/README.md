@@ -24,4 +24,17 @@ npm install -D sass
 
 # deploiement GH
 
-npm i gh-pages
+Commandes dans le dossier FRONTEND :
+npm install gh-pages
+npm run deploy
+
+Script à ajouter dans package.json :
+"deploy": "npm run build && gh-pages -d dist",
+
+vite.config.js :
+import process from 'process'
+base: process.env.NODE_ENV === "production" ? "/entrainementP8" : "/",
+
+App.jsx :
+const basename = import.meta.env.MODE === "production" ? "/entrainementP8" : "";
+basename={basename}
