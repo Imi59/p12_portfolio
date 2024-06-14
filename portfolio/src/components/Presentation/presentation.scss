@@ -31,20 +31,34 @@
     color: white;
     width: 70%;
     position: relative;
-    /* Ajoutez cette ligne */
     z-index: 2;
-    /* Ajoutez cette ligne */
+
+
 
     h1 {
         margin-bottom: 20px;
-        font-size: 55px;
+        font-size: 50px;
         text-shadow: grey 1px 0 10px;
+
+        @media (max-width: 767px) {
+            font-size: 35PX;
+        }
+
+        @media (max-width: 420px) {}
     }
 
     h2 {
-        font-size: 45px;
+        font-size: 40px;
         text-shadow: rgb(240, 240, 240) 1px 0 10px;
         box-shadow: 1px 1px 10px 10px #0be4aa;
+
+        @media (max-width: 767px) {
+            font-size: 30PX;
+        }
+
+        @media (max-width: 420px) {
+            font-size: 25px;
+        }
     }
 
     p {
