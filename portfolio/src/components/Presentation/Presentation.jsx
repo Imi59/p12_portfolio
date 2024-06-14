@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
+import BackgroundImage from "../../assets/marvin-meyer-SYTO3xs06fU-unsplash.jpg";
 
 const Presentation = () => {
   const handleButtonClick = () => {
@@ -11,11 +12,12 @@ const Presentation = () => {
 
   return (
     <div className="presentation">
+      <div className="presentation__background"></div>
       <div className="presentation__text">
         <h1>Bienvenue sur mon portfolio !</h1>
+
+        <h2>Développeuse web FrontEnd </h2>
         <p>
-          <strong>Développeuse web FrontEnd </strong>
-          <br />
           Passionnée par la création d'expériences utilisateur exceptionnelles !
           <br />
           <strong>Mon objectif ?</strong>
@@ -26,7 +28,7 @@ const Presentation = () => {
       </div>
 
       {/* Utilisation du bouton avec gestionnaire de clic personnalisé */}
-      <Button onClick={handleButtonClick}>Contactez - moi !</Button>
+      <Button  className="btn"   onClick={handleButtonClick}>Contactez - moi !</Button>
     </div>
   );
 };
