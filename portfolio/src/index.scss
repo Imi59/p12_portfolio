@@ -8,10 +8,12 @@
 @use "./components/Projects/projects.scss";
 @use "./components/Modal/modal.scss";
 @use "./components/Footer/footer.scss";
+@use "./pages/About/about.scss";
 
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
