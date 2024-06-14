@@ -21,3 +21,6 @@ npm install react-router-dom
 # installation des dépendances de SASS
 
 npm install -D sass
+
+# deploiement GH
+npm i gh-pages
