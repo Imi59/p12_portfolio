@@ -14,7 +14,7 @@ const Presentation = () => {
       <div className="presentation__text">
         <h1>Bienvenue sur mon portfolio !</h1>
         <p>
-          <strong>Développeur web FrontEnd </strong>
+          <strong>Développeuse web FrontEnd </strong>
           <br />
           Passionnée par la création d'expériences utilisateur exceptionnelles !
           <br />
@@ -26,7 +26,7 @@ const Presentation = () => {
       </div>
 
       {/* Utilisation du bouton avec gestionnaire de clic personnalisé */}
-      <Button onClick={handleButtonClick}>Donnez vie à votre projet !</Button>
+      <Button onClick={handleButtonClick}>Contactez - moi !</Button>
     </div>
   );
 };
