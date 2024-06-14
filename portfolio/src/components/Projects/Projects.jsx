@@ -35,7 +35,7 @@ function Projects() {
       <h1>Mes projets</h1>
       <div className="projects__container">
         <Card
-          githubLink="https://github.com/dev-armand/P8-Kasa"
+          githubLink="https://github.com/Imi59/Projet_8_Creez_une_application_web_de_location_immobiliere_avec_React.git"
           image={Kasa}
           title="Kasa"
           icon1={PhotoCSS}
@@ -69,7 +69,7 @@ function Projects() {
           }
         />
         <Card
-          githubLink="https://github.com/dev-armand/P4-ohmyfood"
+          githubLink="https://github.com/Imi59/ameliorer-l-interface-d-un-site-mobile-avec-des-animations-css.git"
           image={Ohmyfood}
           title="Ohmyfood"
           icon1={PhotoCSS}
@@ -83,7 +83,7 @@ function Projects() {
           }
         />
         <Card
-          githubLink="https://github.com/dev-armand/P4-ohmyfood"
+          githubLink="https://github.com/Imi59/Cr-ez-une-page-web-dynamique-avec-JavaScript.git"
           image={Booki}
           title="Booki"
           icon1={PhotoCSS}
@@ -96,7 +96,7 @@ function Projects() {
           }
         />
         <Card
-          githubLink="https://github.com/dev-armand/P8-Kasa"
+          githubLink="https://github.com/Imi59/Implementez_le_frontend_d_une_application_bancaire_avec_React.git"
           image={ArgentBank}
           title="ArgentBank"
           icon1={PhotoCSS}
@@ -115,7 +115,7 @@ function Projects() {
           }
         />
         <Card
-          githubLink="https://github.com/dev-armand/P8-Kasa"
+          githubLink="https://github.com/Imi59/P10_Debuggez_le_site_d_une_agence_d_evenementiel.git"
           image={Events}
           title="724events"
           icon1={PhotoCSS}
