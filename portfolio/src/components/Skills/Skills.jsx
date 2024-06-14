@@ -9,8 +9,7 @@ function Skills() {
     <div id="skills" className="skills-section">
       <h1>Mes compétences </h1>
       <h2>
-        Utiliser des technologies innovantes pour créer des solutions web
-        Uniques !
+        Des technologies innovantes pour des solutions web Uniques !
       </h2>
       <div className="skills-section__container">
         <img
