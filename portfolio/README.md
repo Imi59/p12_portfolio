@@ -22,19 +22,19 @@ npm install react-router-dom
 
 npm install -D sass
 
-# deploiement GH
+# deploiement Git Hub
 
 Commandes dans le dossier FRONTEND :
-npm install gh-pages
-npm run deploy
+npm install gh-pages --> FRONTEND
+npm run deploy --> FRONTEND
 
-Script à ajouter dans package.json :
+Script à ajouter dans package.json dans le front end  :
 "deploy": "npm run build && gh-pages -d dist",
 
 vite.config.js :
 import process from 'process'
-base: process.env.NODE_ENV === "production" ? "/entrainementP8" : "/",
+base: process.env.NODE_ENV === "production" ? "/p12_portfolio" : "/",
 
 App.jsx :
-const basename = import.meta.env.MODE === "production" ? "/entrainementP8" : "";
+const basename = import.meta.env.MODE === "production" ? "/p12_portfolio" : "";
 basename={basename}

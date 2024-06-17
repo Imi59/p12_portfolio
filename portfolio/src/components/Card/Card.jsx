@@ -16,7 +16,7 @@ function Card({
     <div className="projects__link" onClick={onClick}>
       <div className="projects__left-section">
         <img src={image} alt="img" className="projects__left-section__img" />
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <div className="stack-section__container">
           {icon1 && (
             <img
