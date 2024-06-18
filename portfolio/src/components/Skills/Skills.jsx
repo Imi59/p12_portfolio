@@ -1,16 +1,14 @@
-import PhotoCSS from "../../assets/CSS3_logo_and_wordmark.svg.png";
+import PhotoCSS from "../../assets/CSS3_logo_and_wordmark.svg.webp";
 import PhotoHTML from "../../assets/HTML5_logo_and_wordmark.svg.png";
-import PhotoReact from "../../assets/React-icon.svg.png";
-import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.png";
-import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.png";
+import PhotoReact from "../../assets/React-icon.svg.webp";
+import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.webp";
+import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.webp";
 
 function Skills() {
   return (
     <div id="skills" className="skills-section">
       <h1>Mes compétences </h1>
-      <h2>
-        Des technologies innovantes pour des solutions web Uniques !
-      </h2>
+      <h2>Des technologies innovantes pour des solutions web Uniques !</h2>
       <div className="skills-section__container">
         <img
           src={PhotoCSS}
