@@ -20,7 +20,7 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 45px;
         text-shadow: grey 1px 0 10px;
         margin-top: 60px;
         display: flex;
@@ -35,14 +35,25 @@
     }
 
     .about__content {
-        padding: 60px 20px;
+
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 8em;
+        padding-right: 8em;
+        padding-top: 3em;
+
+        align-items: center;
+        justify-content: center;
+
+
 
         p {
-            line-height: 1.5;
-            font-weight: 500;
-            color: #d6d6d6;
+            line-height: 2;
+            font-weight: bolder;
+            color: white;
             font-size: 20px;
+
         }
     }
 

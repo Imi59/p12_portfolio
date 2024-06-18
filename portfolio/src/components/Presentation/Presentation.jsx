@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-import BackgroundImage from "../../assets/marvin-meyer-SYTO3xs06fU-unsplash.webp";
 
 const Presentation = () => {
   const handleButtonClick = () => {
@@ -28,7 +27,9 @@ const Presentation = () => {
       </div>
 
       {/* Utilisation du bouton avec gestionnaire de clic personnalisé */}
-      <Button  className="btn"   onClick={handleButtonClick}>Contactez - moi !</Button>
+      <Button className="btn" onClick={handleButtonClick}>
+        Contactez - moi !
+      </Button>
     </div>
   );
 };
