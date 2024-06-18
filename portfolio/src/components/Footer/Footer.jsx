@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer__social">
           <div className="footer__social-icons">
             <a
-              href="https://github.com/Imi59"
+              href="https://linkedin.com/Imi59"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -30,7 +30,7 @@ const Footer = () => {
               </span>
             </a>
             <a
-              href="https://github.com/Imi59"
+              href="https://facebook.com/Imi59"
               target="_blank"
               rel="noopener noreferrer"
             >
