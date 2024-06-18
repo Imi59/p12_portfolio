@@ -7,12 +7,6 @@ const About = () => {
     // Redirection vers la page d'accueil lorsque la "maison" est cliquée
     window.location.href = "/";
   };
-  const handleButtonClick = () => {
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
     <div id="about" className="about">
@@ -39,9 +33,6 @@ const About = () => {
           <br />
           <br />
         </p>
-        <Button className="btn" onClick={handleButtonClick}>
-          Contactez - moi !
-        </Button>
       </div>
     </div>
   );
