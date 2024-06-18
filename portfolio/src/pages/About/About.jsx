@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <div id="about" className="about">
-      <Link to="/" className="go-back" onClick={handleGoBack}>
+      <Link className="go-back" onClick={handleGoBack}>
         <i className="fa fa-home"></i>
       </Link>
 
