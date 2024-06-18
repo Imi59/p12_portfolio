@@ -14,21 +14,30 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin"></i>
+              <span>
+                <i className="fab fa-linkedin"></i>
+                <p>LINKEDIN</p>
+              </span>
             </a>
             <a
               href="https://github.com/Imi59"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <span>
+                <i className="fab fa-github"></i>
+                <p>GITHUB</p>
+              </span>
             </a>
             <a
               href="https://github.com/Imi59"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-facebook"></i>
+              <span>
+                <i className="fab fa-facebook"></i>
+                <p>FACEBOOK</p>
+              </span>
             </a>
           </div>
         </div>

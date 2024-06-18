@@ -29,14 +29,26 @@
             padding: 3em;
 
             a {
-                color: #fff;
-                font-size: 55px;
                 text-decoration: none;
-
+                display: flex;
+                flex-direction: column;
 
                 & :hover {
                     @include glow-effect-hover;
                 }
+
+
+                i {
+                    color: #fff;
+                    font-size: 55px;
+
+                }
+
+                p {
+                    font-size: 14px;
+                    color: white;
+                }
+
 
 
             }
