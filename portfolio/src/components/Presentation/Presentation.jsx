@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import BackgroundImage from "../../assets/marvin-meyer-SYTO3xs06fU-unsplash.jpg";
+import BackgroundImage from "../../assets/marvin-meyer-SYTO3xs06fU-unsplash.webp";
 
 const Presentation = () => {
   const handleButtonClick = () => {
