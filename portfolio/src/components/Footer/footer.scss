@@ -33,9 +33,12 @@
                 font-size: 55px;
                 text-decoration: none;
 
+
                 & :hover {
                     @include glow-effect-hover;
                 }
+
+
             }
         }
     }

@@ -9,13 +9,25 @@ const Footer = () => {
         {/* Logos LinkedIn et Github */}
         <div className="footer__social">
           <div className="footer__social-icons">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Imi59"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Imi59"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github"></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Imi59"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-facebook"></i>
             </a>
           </div>

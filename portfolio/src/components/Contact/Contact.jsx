@@ -19,6 +19,7 @@ const Contact = () => {
       <form className="contact__form" onSubmit={handleSubmit}>
         <div className="contact__form-row">
           <div className="contact__form-group contact__form-group--half">
+            <label htmlFor="firstName">Prénom</label>
             <input
               type="text"
               id="firstName"
@@ -29,6 +30,7 @@ const Contact = () => {
             />
           </div>
           <div className="contact__form-group contact__form-group--half">
+            <label htmlFor="lastName">Nom</label>
             <input
               type="text"
               id="lastName"
@@ -40,6 +42,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__form-group">
+          <label htmlFor="email">E-mail</label>
           <input
             type="email"
             id="email"
@@ -50,6 +53,7 @@ const Contact = () => {
           />
         </div>
         <div className="contact__form-group">
+          <label htmlFor="message">Message</label>
           <textarea
             id="message"
             name="message"
