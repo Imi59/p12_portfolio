@@ -1,5 +1,5 @@
 import PhotoCSS from "../../assets/CSS3_logo_and_wordmark.svg.webp";
-import PhotoHTML from "../../assets/HTML5_logo_and_wordmark.svg.png";
+import PhotoHTML from "../../assets/HTML5_logo_and_wordmark.svg.webp";
 import PhotoReact from "../../assets/React-icon.svg.webp";
 import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.webp";
 import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.webp";

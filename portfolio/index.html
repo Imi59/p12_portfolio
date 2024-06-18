@@ -2,15 +2,15 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <title>Portfolio Imane</title>
     <link rel="icon" type="image/svg+xml" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="Imane BAQUA" />
+    <meta name="author" content="Imane BAQUA" />
     <meta name="copyright" content="© Imane Baqua" />
     <meta
       name="description"
       content="Salut, moi c'est Imane. Je suis développeuse web et je propose mes services d'intégration web avec React."
     />
-    <title>Portfolio Imane</title>
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
@@ -29,12 +29,21 @@
       }
     </script>
     <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
     />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>

@@ -7,11 +7,11 @@ import ArgentBank from "../../assets/projects/argentbank.p11.webp";
 import Events from "../../assets/projects/724events.p10.webp";
 import Card from "../Card/Card";
 import Modal from "../Modal/Modal";
-import PhotoCSS from "../../assets/CSS3_logo_and_wordmark.svg.png";
-import PhotoHTML from "../../assets/HTML5_logo_and_wordmark.svg.png";
-import PhotoReact from "../../assets/React-icon.svg.png";
-import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.png";
-import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.png";
+import PhotoCSS from "../../assets/CSS3_logo_and_wordmark.svg.webp";
+import PhotoHTML from "../../assets/HTML5_logo_and_wordmark.svg.webp";
+import PhotoReact from "../../assets/React-icon.svg.webp";
+import PhotoJavascript from "../../assets/Unofficial_JavaScript_logo_2.svg.webp";
+import PhotoSASS from "../../assets/2560px-Sass_Logo_Color.svg.webp";
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
