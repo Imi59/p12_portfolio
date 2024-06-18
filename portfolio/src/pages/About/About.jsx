@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <div id="about" className="about">
-      <Link className="go-back" onClick={handleGoBack}>
+      <Link className="go-back" onClick={handleGoBack} to="/">
         <i className="fa fa-home"></i>
       </Link>
 
